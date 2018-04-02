@@ -483,7 +483,7 @@ bash /etc/usuariosteste/$nome.sh &
 exit
 }
 function badvpn_install(){
-wget https://raw.githubusercontent.com/powermx/badvpn/master/easyinstall && bash easyinstall
+wget https://raw.githubusercontent.com/JardielOrtizz/JardielVPN/master/easyinstall && bash easyinstall
 }
 function removerlimite(){
 echo -ne "\033[1;32mNombre Del Usuario a Modificar: \033[0m"
